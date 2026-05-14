@@ -115,10 +115,6 @@ body {
   letter-spacing: 3px;
 }
 
-.romaji span {
-  opacity: 0.2;
-}
-
 .romaji .done {
   color: #8b0000;
   opacity: 1;
