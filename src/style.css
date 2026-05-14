@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cinzel+Decorative:wght@700&display=swap');
+
+body {
+  margin: 0;
+  background: radial-gradient(circle, #000, #050505);
+  color: #e0e0e0;
+  font-family: 'Cinzel', serif;
+  overflow: hidden;
+}
+
+/* 中央配置 */
+.container {
+  position: relative;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+/* 歪み */
+.distort {
+  filter: blur(2px) contrast(150%) hue-rotate(10deg);
+  transform: scale(1.01) skew(1deg);
+}
+
+/* スコア */
+.score {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 32px;
+  color: #8b0000;
+}
+
+/* ライフ */
+.lives {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  font-size: 24px;
+}
+
+.heart {
+  margin-right: 5px;
+  opacity: 0.2;
+}
+
+.heart.alive {
+  color: #8b0000;
+  opacity: 1;
+}
+
+/* BGMトグル */
+.bgm-toggle {
+  position: absolute;
+  top: 70px;
+  right: 30px;
+
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  padding: 6px 10px;
+
+  font-size: 14px;
+  letter-spacing: 1px;
+
+  color: #ff4d4d;
+
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid #8b0000;
+  border-radius: 4px;
+
+  cursor: pointer;
+
+  text-shadow: 0 0 6px #8b0000;
+  box-shadow: 0 0 10px rgba(139, 0, 0, 0.5);
+
+  transition: all 0.2s ease;
+}
+
+.bgm-toggle:hover {
+  background: rgba(139, 0, 0, 0.4);
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+.bgm-toggle.off {
+  opacity: 0.4;
+  filter: grayscale(80%);
+}
+
+/* 名言 */
+.quote {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* 著者 */
+.author {
+  font-size: 14px;
+  opacity: 0.6;
+  margin-top: 10px;
+  text-align: right;
+  transform: translateX(-20px);
+}
+
+/* ローマ字 */
+.romaji {
+  font-size: 26px;
+  letter-spacing: 3px;
+}
+
+.romaji span {
+  opacity: 0.2;
+}
+
+.romaji .done {
+  color: #8b0000;
+  opacity: 1;
+}
+
+/* フラッシュ */
+.flash {
+  animation: flash 0.1s;
+}
+
+@keyframes flash {
+  0% { background: #300; }
+  100% { background: #000; }
+}
+
+/* ゲームオーバー */
+.gameover {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: #8b0000;
+}
+
+.message {
+  font-size: 28px;
+}
+
+.sub {
+  font-size: 14px;
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid #8b0000;
+  color: #8b0000;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #8b0000;
+  color: black;
+}
