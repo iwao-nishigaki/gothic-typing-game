@@ -183,7 +183,10 @@ export default function App() {
       {/* ローマ字 */}
       <div className="romaji">
         {romaji.split("").map((c, i) => (
-          <span key={i} className={i < index ? "done" : ""}>
+          <span
+            key={i}
+            className={i < index ? "done" : "remaining"}
+          >
             {c}
           </span>
         ))}

@@ -127,6 +127,15 @@ body {
   transition: all 0.2s ease;
 }
 
+.romaji .remaining {
+  color: #ffffff;
+  opacity: 0.95;
+
+  text-shadow:
+    0 0 6px rgba(255,255,255,0.8),
+    0 0 12px rgba(255,255,255,0.5);
+}
+
 .romaji .done {
   color: #8b0000;
   opacity: 0.6;
