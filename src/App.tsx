@@ -21,9 +21,9 @@ export default function App() {
 
   // 音初期化
   useEffect(() => {
-    typeSound.current = new Audio("/type.mp3");
-    bgm.current = new Audio("/bgm.mp3");
-    gameOverBgm.current = new Audio("/gameover.mp3");
+    typeSound.current = new Audio(import.meta.env.BASE_URL + "type.mp3");
+    bgm.current = new Audio(import.meta.env.BASE_URL + "bgm.mp3");
+    gameOverBgm.current = new Audio(import.meta.env.BASE_URL + "gameover.mp3");
 
     if (bgm.current) {
       bgm.current.loop = true;
