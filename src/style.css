@@ -111,14 +111,25 @@ body {
 
 /* ローマ字 */
 .romaji {
-  font-size: 42px;
-  color: #000000;
-  letter-spacing: 3px;
+  color: #e8e8e8;                /* 明るく */
+  opacity: 0.85;                /* しっかり見せる */
+  font-size: 1.4rem;
+
+  letter-spacing: 0.12em;
+
+  text-shadow:
+    0 0 4px rgba(255,255,255,0.4),
+    0 0 8px rgba(255,255,255,0.25),
+    0 0 16px rgba(180,180,180,0.2);
+
+  filter: contrast(1.2) brightness(1.1);
+
+  transition: all 0.2s ease;
 }
 
 .romaji .done {
   color: #8b0000;
-  opacity: 1;
+  opacity: 0.6;
 }
 
 /* フラッシュ */
