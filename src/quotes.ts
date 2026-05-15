@@ -1,52 +1,52 @@
 export const quotes = [
   {
     text: "私の存在は偶然に過ぎない。なぜそんなに全てを深刻にとらえるのか",
-    reading: "watashinosonzaihaguuzenisuginai.nazesonnanisubetewoshinkokunitoraerunoka",
+    reading: "watasinosonzaihaguuzenisuginainazesonnanisubetewosinkokunitoraerunoka",
     author: "エミール・シオラン"
   },
   {
     text: "人間とは地球の癌だ",
-    reading: "ningentohachikyuunoganda",
+    reading: "ningentohatikyuunoganda",
     author: "エミール・シオラン"
   },
   {
     text: "老いとは、要するに生きたことに対する懲罰にほかならぬ。",
-    reading: "oitohayousuruniikitakotonitaisuruchoubatsunihokanaranu",
+    reading: "oitohayousuruniikitakotonitaisurutyoubatunihokanaranu",
     author: "エミール・シオラン"
   },
   {
     text: "生れたという屈辱を、いまだに消化しかねている。",
-    reading: "umaretatoiukutsujokuwoimadanishoukashikaneteiru",
+    reading: "umaretatoiukutujokuwoimadanishoukasikaneteiru",
     author: "エミール・シオラン"
   },
   {
     text: "われわれが生きて行けるのは、ただわれわれの想像力と記憶力が貧弱だからにすぎない",
-    reading: "warewaregaikiteikerunowatadawarewarenosouzouryokutokiokuryokugahinjyakudakaranisuginai",
+    reading: "warewaregaikiteikerunohatadawarewarenosouzouryokutokiokuryokugahinjakudakaranisuginai",
     author: "エミール・シオラン"
   },
   {
     text: "生きるとは追いつめられることだ",
-    reading: "ikirutohaoitsumerarerukotoda",
+    reading: "ikirutohaoitumerarerukotoda",
     author: "エミール・シオラン"
   },
   {
     text: "希望とは未来に対してつく嘘である",
-    reading: "kiboutohamirainitaisitetsukuusodearu",
+    reading: "kiboutohamirainitaisitetukuusodearu",
     author: "エミール・シオラン"
   },
   {
     text: "生にはなんの意味もないという事実は、生きる理由の一つになる",
-    reading: "seinihanann noimimonaitoiujijitsuhaikiruriyuunohitotsuninaru",
+    reading: "seinihanannnoimimonaitoiujijituhaikiruriyuunohitotuninaru",
     author: "エミール・シオラン"
   },
   {
     text: "両親とは、いずれも無責任な者か人殺しだ。",
-    reading: "ryoushintohaizuremomusekininnnamonokahitogoroshida",
+    reading: "ryousintohaizuremomusekininnamonokahitogorosida",
     author: "エミール・シオラン"
   },
   {
     text: "同情心があれば、私たちは「人の親」にはなれまい。",
-    reading: "doujoushingaarebawatashitachihahitonooyanihanaremai",
+    reading: "doujousingaarebawatasitatihahitonooyanihanaremai",
     author: "エミール・シオラン"
   },
   {
@@ -56,12 +56,12 @@ export const quotes = [
   },
   {
     text: "結局のところ、私たちが自殺しないのは、自殺の理由がありすぎるからだ。",
-    reading: "kekkyokunotokorowatashitachigajisatsushinainohajisatsunoriyuugaarisugirukarada",
+    reading: "kekkyokunotokorowatasitatigajisatusinainohajisatunoriyuugaarisugirukarada",
     author: "エミール・シオラン"
   },
   {
     text: "私には疲労という才能がある。",
-    reading: "watashinihahiroutoiusainougaaru",
+    reading: "watasinihahiroutoiusainougaaru",
     author: "エミール・シオラン"
   }
 ];
