@@ -1,7 +1,7 @@
 export const quotes = [
   {
     text: "私の存在は偶然に過ぎない。なぜそんなに全てを深刻にとらえるのか",
-    reading: "watasinosonzaihaguuzenisuginainazesonnanisubetewosinkokunitoraerunoka",
+    reading: "watasinosonzaihaguuzennisuginainazesonnanisubetewosinkokunitoraerunoka",
     author: "エミール・シオラン"
   },
   {
